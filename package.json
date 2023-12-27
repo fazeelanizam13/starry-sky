@@ -1,0 +1,30 @@
+{
+  "name": "@fazeelanizam13/starry-sky",
+  "version": "1.0.2",
+  "description": "A React wrapper component that renders a background of a night sky with stars animated to blink and fall.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ladle serve",
+    "build": "tsup src/StarrySky/index.tsx --dts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ladle/react": "^4.0.2",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8 || ^17 || ^18",
+    "react-dom": "^16.8 || ^17 || ^18"
+  }
+}
